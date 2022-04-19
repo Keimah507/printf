@@ -1,6 +1,6 @@
 Printf function developed by Brian Githinji and Nancy Muthee for ALX
 
-##Description
+### Description
 
 The _printf() function produces output according to a format given. This function writes its output to the stdout then returns the count of printed characters when the function is successful and -1 when the function fails.
 
