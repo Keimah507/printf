@@ -11,7 +11,7 @@
 int parser(const char *format, conver_t f_list[], va_list arg_list)
 {
 	int i, j, r_val, printed_chars;
-	
+
 	printed_chars = 0;
 	for (i = 0; format[i] != '\0'; i++)/* Iterates through the main str*/
 	{
@@ -33,8 +33,8 @@ int parser(const char *format, conver_t f_list[], va_list arg_list)
 			{
 				if (format[i + 1] != '\0')
 				{
-					_write_char(format[i]);
-					_write_char(format[i + 1]);
+					_putchar(format[i]);
+					_putchar(format[i + 1]);
 					printed_chars = printed_chars + 2;
 				}
 				else
@@ -44,7 +44,7 @@ int parser(const char *format, conver_t f_list[], va_list arg_list)
 		}
 		else
 		{
-			_write_char(format[i]); /*call the write function*/
+			_putchar(format[i]); /*call the write function*/
 		printed_chars++;
 		}
 	}
