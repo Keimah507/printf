@@ -40,7 +40,7 @@ int print_percent(__attribute__((unused))va_list list)
 }
 
 /**
- * print_int - Prints an integer
+ * print_integer - Prints an integer
  * @list: list of arguments
  * Return: Will return the amount of characters printed.
  */
@@ -53,7 +53,7 @@ int print_integer(va_list list)
 }
 
 /**
- * print_unsigned - Prints Unsigned integers
+ * unsigned_integer - Prints Unsigned integers
  * @list: List of all of the argumets
  * Return: a count of the numbers
  */

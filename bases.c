@@ -156,7 +156,7 @@ int print_heX(va_list list)
 		{
 			rem_num = hex_check(rem_num, 'X');
 			hex_rep[len] = rem_num;
-		}else
+		} else
 		hex_rep[len] = rem_num + 48;
 		num = num / 16;
 	}
@@ -185,6 +185,6 @@ int hex_check(int num, char x)
 	if (x == 'x')
 		return (hex[num]);
 	else
-	return (Hex[num]);
+		return (Hex[num]);
 	return (0);
 }
